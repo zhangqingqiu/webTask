@@ -1,0 +1,222 @@
+html,
+body,
+.slider,
+.slide,
+.bg {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.slider {
+  background: #000;
+}
+
+.slide {
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  transition: 800ms;
+
+}
+
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 800ms;
+}
+
+.queue {
+  transform: translate3d(0, 100%, 0);
+
+}
+
+.prev {
+  transform: translate3d(0, -50%, 0);
+
+}
+
+.prev .bg {
+  opacity: 0.5;
+
+}
+
+.bounce {
+  transition: 300ms;
+
+}
+
+.slide:first-child.bounce {
+  transform: translate3d(0, 10%, 0);
+}
+
+.slide:last-child.bounce {
+  transform: translate3d(0, -10%, 0);
+}
+
+.slide:nth-child(1) .bg {
+  background-image: url(img/15.jpg);
+
+}
+
+.slide:nth-child(2) .bg {
+  background-image: url(img/2.jpeg);
+
+}
+
+.slide:nth-child(3) .bg {
+  background-image: url(img/16.jpg);
+
+}
+
+
+.slide:nth-child(4) .bg {
+  background-image: url(img/17.jpg);
+
+}
+
+
+.slide:nth-child(5) .bg {
+  background-image: url(img/5.jpeg);
+
+}
+
+/* 第一张图片 */
+#text1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+#ride {
+  font-size: 80px;
+  color: #fff;
+}
+
+#star {
+  width: 400px;
+  height: 100px;
+  margin-top: 8%;
+}
+
+#text1 span {
+  color: #fff;
+  font: 14px;
+  line-height: 30px;
+}
+/* 第二张图片 */
+#text2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+#ride2 {
+  font-size: 80px;
+  color: #fff;
+}
+
+#star2 {
+  width: 400px;
+  height: 100px;
+  margin-top: 8%;
+}
+
+#text2 span {
+  color: #fff;
+  font: 14px;
+  line-height: 30px;
+}
+
+/* 第三张图片 */
+#text3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+#ride3 {
+  font-size: 80px;
+  color: #fff;
+}
+
+#star3 {
+  width: 400px;
+  height: 100px;
+  margin-top: 8%;
+}
+
+#text3 span {
+  color: #fff;
+  font: 14px;
+  line-height: 30px;
+}
+
+/* 第四张图片 */
+#text4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+#ride4 {
+  font-size: 80px;
+  color: #fff;
+}
+
+#star4 {
+  width: 400px;
+  height: 100px;
+  margin-top: 8%;
+}
+
+#text4 span {
+  color: #fff;
+  font: 14px;
+  line-height: 30px;
+}
+
+/* 第五张图片 */
+#text5 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  width: 400px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+#ride5 {
+  font-size: 80px;
+  color: #fff;
+}
+
+#star5 {
+  width: 400px;
+  height: 100px;
+  margin-top: 8%;
+}
+
+#text5 span {
+  color: #fff;
+  font: 14px;
+  line-height: 30px;
+}
+

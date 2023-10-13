@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(img/bg1.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+li {
+	list-style: none;
+}
+
+#wrap {
+	position: relative;
+	width: 1400px;
+	height: 750px;
+	overflow: hidden;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 5px rgb(93, 93, 93);
+}
+
+#wrap .img-list {
+	position: relative;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	transition: .5s ease;
+}
+
+#wrap .img-list img {
+	width: 1400px;
+	height: 750px;
+
+}
+
+#wrap .circle-list {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	left: 50%;
+	margin-left: -75px;
+}
+
+#wrap .circle-list>.circle {
+	background-color: rgb(255, 255, 255);
+	width: 15px;
+	height: 15px;
+	margin: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#wrap .circle-list>.circle.active {
+	background-color: rgb(255, 0, 0);
+	box-shadow: 0px 0px 5px 2px white;
+}
+
+#wrap h4 {
+	position: absolute;
+	top: 300px;
+	left: 375px;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-shadow: 1px 6px 9px #000;
+	text-align: center;
+}
+
+#wrap h4 span {
+	color: #ff9f1c;
+}
+
+#video {
+	background-color: #0d0e15;
+	background-image: linear-gradient(45deg, #0d0e15 0%, #030b3c 100%);
+	width: 100%;
+	height: 703px;
+	margin: 30px auto;
+	position: relative;
+}
+
+#video1 {
+	width: 600px;
+	height: 440px;
+	top: 131px;
+	left: 5%;
+	position: absolute;
+}
+
+#video2 {
+	position: absolute;
+	top: 131px;
+	right: 5%;
+	width: 600px;
+	height: 440px;
+
+}
+
+#text1 {
+	width: 568px;
+	height: 22px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	position: absolute;
+	top: 581px;
+	left: 5%;
+	text-align: center;
+}
+
+#text2 {
+	width: 568px;
+	height: 22px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: normal;
+	position: absolute;
+	top: 581px;
+	right: 5%;
+	text-align: center;
+}
+
+#more {
+	position: absolute;
+	top: 85%;
+	right: 43%;
+	width: 197px;
+	height: 60px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	line-height: 60px;
+	border: 3px solid rgb(141, 139, 139);
+}
+
+#more a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#more:hover {
+	border: 3px solid transparent;
+}
+
+
+
+#videoHead {
+	position: absolute;
+	left: 40%;
+	width: 256px;
+	height: 62px;
+	font-size: 32px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	text-align: center;
+	line-height: 62px;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	height: 929px;
+	background-color: #151515;
+}
+
+h6 {
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	color: #ffa43b !important;
+	;
+	height: 21px;
+	width: 162px;
+	font-size: 1.125rem;
+}
+
+h3 {
+	position: absolute;
+	color: #ffffff;
+	left: 5%;
+	top: 15%;
+	font-size: 2.25rem;
+	width: 720px;
+	height: 43px;
+}
+
+#imgList {
+	position: relative;
+	height: 590px;
+	width: 100%;
+	left: 5%;
+	top: 28%;
+}
+
+#imgList div img {
+	height: 590px;
+	width: 335px;
+	float: left;
+}
+
+#mainFooter {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	width: 197px;
+	height: 60px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	line-height: 60px;
+	border: 3px solid rgb(141, 139, 139);
+}
+ a {
+	text-decoration: none;
+		color: #fff;
+}
+
+#mainFooter:hover {
+	border: 3px solid transparent;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	height: 543px;
+	background-color: #0e0e0e;
+}
+
+#footer1 {
+	position: absolute;
+	width: 700px;
+	height: 400px;
+	top: 15%;
+	left: 5%;
+	/* background-color: #e96717; */
+}
+
+#footer2 {
+	position: absolute;
+	right: 5%;
+	top: 15%;
+	width: 400px;
+	height: 400px;
+}
+
+#footer img {
+	float: left;
+}
+
+
+#footer1 h5 {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-left: 150px;
+	margin-top: 5px;
+}
+
+#footer1 h2 {
+	font-size: 3rem;
+	color: #fff;
+	margin-top: 20px;
+}
+
+#order {
+	width: 197px;
+	height: 60px;
+	background-color: #ffa43b;
+	margin-top: 40px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#order:hover {
+	color: #fff;
+}
+
+#footer2 p {
+	line-height: 2.2;
+	font-size: 1rem;
+	color: #fff;
+	margin-top: 20%;
+}
+
+#footer2ImgList img {
+	width: 38px;
+	height: 38px;
+	margin-right: 50px;
+	border-radius: 7px 7px 7px 7px;
+	background-image: linear-gradient(160deg, #191a1b 0%, #969998 100%);
+	margin-top: 8%;
+}
+
+#logo img{
+	width: 500px;
+	height: 300px;
+	margin-left: 41%;
+	margin-top: 6%;
+}
